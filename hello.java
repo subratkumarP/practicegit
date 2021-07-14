@@ -8,7 +8,7 @@ public class SeleniumLearning {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		WebDriver driver = new FirefoxDriver();
+		//WebDriver driver = new FirefoxDriver();
 		driver.get("http://demo.guru99.com/V1/index.php");
 		driver.findElement(By.name("uid")).sendKeys("mngr340764");
 		driver.findElement(By.cssSelector("[type='password']")).sendKeys("uvYmUmA");
